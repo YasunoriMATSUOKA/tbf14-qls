@@ -1,7 +1,16 @@
-# Re:VIEW Template
+# 技術書典14 「今日から現場で使える速習Symbolブロックチェーン」
 
-このリポジトリはRe:VIEW用の書籍テンプレートです。Re:VIEWバージョン5.7に対応します。
-メンテナンスはTechBoosterが行っています。
+技術書典14で頒布する「今日から現場で使える速習Symbolブロックチェーン」の原稿管理用リポジトリです。こちらのリポジトリで技術的な検証ができ次第、後述するNEMTUSのOrganizationでのリポジトリの管理に移行する可能性があります。
+
+TechBoosterのRe:VIEW用の書籍テンプレート[https://github.com/TechBooster/ReVIEW-Template](https://github.com/TechBooster/ReVIEW-Template)を利用しています。Re:VIEWバージョン5.7に対応します。
+
+## 速習Symbolとは
+
+Symbolブロックチェーンのシンプルなブロックエクスプローラー及び関連サービスをコミュニティメンバーと提供してくださっているXEMBook様([https://twitter.com/xembook](https://twitter.com/xembook))が作成・公開・メンテしてくださっている、Symbolブロックチェーンの学習用コンテンツ「速習Symbol」[https://github.com/xembook/quick_learning_symbol](https://github.com/xembook/quick_learning_symbol)がオリジナルです。
+
+技術書典14にNPO法人NEM技術普及推進会NEMTUS(ねむたす)が出展できることになったことをきっかけに、NEMTUS内部メンバーからXEMBook様に書籍化及び技術書典14での販売を相談させて頂き、許可を頂いています。
+
+## Re:VIEW Template
 
  * [B5紙面サンプル（PDF）](https://github.com/TechBooster/ReVIEW-Template/tree/master/pdf-sample/TechBooster-Template-B5.pdf)
  * [A5紙面サンプル（PDF）](https://github.com/TechBooster/ReVIEW-Template/tree/master/pdf-sample/TechBooster-Template-A5.pdf)
