@@ -2,7 +2,19 @@ PREDEF:
   - preface.re
 
 CHAPS:
-  - article.re
+  - 01_introduction.re
+  - 02_setting.re
+  - 03_account.re
+  - 04_transaction.re
+  - 05_mosaic.re
+  - 06_namespace.re
+  - 07_metadata.re
+  - 08_lock.re
+  - 09_multisig.re
+  - 10_observer.re
+  - 11_restriction.re
+  - 12_offline_signature.re
+  - 13_verify.re
 
 APPENDIX:
 
