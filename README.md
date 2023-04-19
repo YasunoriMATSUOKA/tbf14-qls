@@ -8,7 +8,7 @@ TechBoosterのRe:VIEW用の書籍テンプレート[https://github.com/TechBoost
 
 Symbolブロックチェーンのシンプルなブロックエクスプローラー及び関連サービスをコミュニティメンバーと提供してくださっているXEMBook様([https://twitter.com/xembook](https://twitter.com/xembook))が作成・公開・メンテしてくださっている、Symbolブロックチェーンの学習用コンテンツ「速習Symbol」[https://github.com/xembook/quick_learning_symbol](https://github.com/xembook/quick_learning_symbol)がオリジナルです。
 
-技術書典14にNPO法人NEM技術普及推進会NEMTUS(ねむたす)が出展できることになったことをきっかけに、NEMTUS内部メンバーからXEMBook様に書籍化及び技術書典14での販売を相談させて頂き、許可を頂いています。
+技術書典14にNPO法人NEM技術普及推進会NEMTUSが出展できることになったことをきっかけに、NEMTUS内部メンバーからXEMBook様に書籍化及び技術書典14での販売を相談させて頂き、許可を頂いています。
 
 ## Re:VIEW Template
 
