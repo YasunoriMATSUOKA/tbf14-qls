@@ -1,4 +1,4 @@
-# 7.メタデータ
+# メタデータ
 
 アカウント・モザイク・ネームスペースに対してKey-Value形式のデータを登録することができます。  
 Valueの最大値は1024バイトです。
@@ -10,7 +10,7 @@ metaRepo = repo.createMetadataRepository();
 mosaicRepo = repo.createMosaicRepository();
 metaService = new sym.MetadataTransactionService(metaRepo);
 ```
-## 7.1 アカウントに登録
+## アカウントに登録
 
 アカウントに対して、Key-Value値を登録します。
 
@@ -66,7 +66,7 @@ await txRepo.announce(signedTx).toPromise();
 bobの秘密鍵が分からない場合はこの後の章で説明する
 アグリゲートボンデッドトランザクション、あるいはオフライン署名を使用する必要があります。
 
-## 7.2 モザイクに登録
+## モザイクに登録
 
 ターゲットとなるモザイクに対して、Key値・ソースアカウントの複合キーでValue値を登録します。
 登録・更新にはモザイクを作成したアカウントの署名が必要です。
@@ -97,7 +97,7 @@ signedTx = alice.sign(aggregateTx,generationHash);
 await txRepo.announce(signedTx).toPromise();
 ```
 
-## 7.3 ネームスペースに登録
+## ネームスペースに登録
 
 ネームスペースに対して、Key-Value値を登録します。
 登録・更新にはネームスペースを作成したアカウントの署名が必要です。
@@ -128,7 +128,7 @@ signedTx = alice.sign(aggregateTx,generationHash);
 await txRepo.announce(signedTx).toPromise();
 ```
 
-## 7.4 確認
+## 確認
 登録したメタデータを確認します。
 
 ```js
@@ -185,7 +185,7 @@ sym.MetadataType
 更新には、発行者アカウントと登録先アカウントの署名が必要のため、それらのアカウントの管理状態が信用できる場合のみ使用するようにしてください。
 
 
-## 7.5 現場で使えるヒント
+## 現場で使えるヒント
 
 ### 有資格証明
 

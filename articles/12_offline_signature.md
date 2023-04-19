@@ -1,4 +1,4 @@
-# 12.オフライン署名
+# オフライン署名
 
 ロック機構の章で、アナウンスしたトランザクションをハッシュ値指定でロックして、  
 複数の署名（オンライン署名）を集めるアグリゲートトランザクションを紹介しました。    
@@ -11,7 +11,7 @@ Aliceが起案者となりトランザクションを作成し、署名します
 最後にAliceがトランザクションを結合してネットワークにアナウンスします。  
 
 
-## 12.1 トランザクション作成
+## トランザクション作成
 ```js
 bob = sym.Account.generateNewAccount(networkType);
 
@@ -55,7 +55,7 @@ console.log(signedPayload);
 署名を行い、signedHash,signedPayloadを出力します。  
 signedPayloadをBobに渡して署名を促します。  
 
-## 12.2 Bobによる連署
+## Bobによる連署
 
 
 Aliceから受け取ったsignedPayloadでトランザクションを復元します。
@@ -109,7 +109,7 @@ bobSignedTxSignerPublicKey = bobSignedTx.signerPublicKey;
 CosignatureTransactionで署名を行い、bobSignedTxSignature,bobSignedTxSignerPublicKeyを出力しAliceに返却します。  
 Bobが全ての署名を揃えられる場合は、Aliceに返却しなくてもBobがアナウンスすることも可能です。
 
-## 12.3 Aliceによるアナウンス
+## Aliceによるアナウンス
 
 AliceはBobからbobSignedTxSignature,bobSignedTxSignerPublicKeyを受け取ります。  
 また事前にAlice自身で作成したsignedPayloadを用意します。  
@@ -144,7 +144,7 @@ resignedTx = recreatedTx.signTransactionGivenSignatures(alice, cosignSignedTxs, 
 await txRepo.announce(resignedTx).toPromise();
 ```
 
-## 12.4 現場で使えるヒント
+## 現場で使えるヒント
 
 ### マーケットプレイスレス
 ボンデッドトランザクションと異なりハッシュロックのための手数料(10XYM)を気にする必要がありません。    

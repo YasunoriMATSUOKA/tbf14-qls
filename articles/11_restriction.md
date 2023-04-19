@@ -1,4 +1,4 @@
-# 11.制限
+# 制限
 
 アカウントに対する制限とモザイクのグローバル制限についての方法を紹介します。
 本章では、既存アカウントの権限を制限してしまうので、使い捨てのアカウントを新規に作成してお試しください。
@@ -11,7 +11,7 @@ console.log(carol.address);
 //FAUCET URL出力
 console.log("https://testnet.symbol.tools/?recipient=" + carol.address.plain() +"&amount=100");
 ```
-## 11.1 アカウント制限
+## アカウント制限
 
 ### 指定アドレスからの受信制限・指定アドレスへの送信制限
 ```js
@@ -317,7 +317,7 @@ await txRepo.announce(signedTx).toPromise();
 {"hash":"E3402FB7AE21A6A64838DDD0722420EC67E61206C148A73B0DFD7F8C098062FA","code":"Failure_RestrictionMosaic_Account_Unauthorized","deadline":"12371602742","group":"failed"}
 ```
 
-## 11.3 現場で使えるヒント
+## 現場で使えるヒント
 
 ブロックチェーンの社会実装などを考えたときに、法律や信頼性の見地から
 一つの役割のみを持たせたいアカウント、関係ないアカウントを巻き込みたくないと思うことがあります。

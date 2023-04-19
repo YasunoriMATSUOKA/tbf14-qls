@@ -1,4 +1,4 @@
-# 9.マルチシグ化
+# マルチシグ化
 アカウントのマルチシグ化について説明します。
 
 
@@ -9,7 +9,7 @@
 マルチシグは最大3階層まで構成できます。
 本書では1階層のマルチシグのみ解説します。
 
-### 9.0 アカウントの準備
+### アカウントの準備
 この章のサンプルソースコードで使用するアカウントを作成し、それぞれの秘密鍵を出力しておきます。
 本章でマルチシグ化したアカウントBobは、Carolの秘密鍵を紛失すると使えなくなってしまうのでご注意ください。
 
@@ -40,7 +40,7 @@ console.log("https://testnet.symbol.tools/?recipient=" + bob.address.plain() +"&
 console.log("https://testnet.symbol.tools/?recipient=" + carol1.address.plain() +"&amount=20");
 ```
 
-## 9.1 マルチシグの登録
+## マルチシグの登録
 
 Symbolではマルチシグアカウントを新規に作成するのではなく、既存アカウントについて連署者を指定してマルチシグ化します。
 マルチシグ化には連署者に指定されたアカウントの承諾署名(オプトイン)が必要なため、アグリゲートトランザクションを使用します。
@@ -73,7 +73,7 @@ signedTx =  aggregateTx.signTransactionWithCosignatories(
 await txRepo.announce(signedTx).toPromise();
 ```
 
-## 9.2 確認
+## 確認
 
 ### マルチシグ化したアカウントの確認
 ```js
@@ -120,7 +120,7 @@ console.log(multisigInfo);
 
 multisigAddresses に対して連署する権利を持っていることが分かります。
 
-## 9.3 マルチシグ署名
+## マルチシグ署名
 
 マルチシグ化したアカウントからモザイクを送信します。
 
@@ -199,7 +199,7 @@ await txRepo.announceAggregateBonded(signedAggregateTx).toPromise();
 連署をサポートするウォレットで承認することもできます。
 
 
-## 9.4 マルチシグ送信の確認
+## マルチシグ送信の確認
 
 マルチシグで行った送信トランザクションの結果を確認してみます。
 
@@ -268,7 +268,7 @@ console.log(txInfo);
         - AggregateTransaction.cosignatures[1].signer.address
             - TBAFGZOCB7OHZCCYYV64F2IFZL7SOOXNDHFS5NY
 
-## 9.5 マルチシグ構成変更
+## マルチシグ構成変更
 
 ### マルチシグ構成の縮小
 
@@ -332,7 +332,7 @@ signedTx =  aggregateTx.signTransactionWithCosignatories(
 await txRepo.announce(signedTx).toPromise();
 ```
 
-## 9.6 現場で使えるヒント
+## 現場で使えるヒント
 
 ### 多要素認証
 
