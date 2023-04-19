@@ -44,6 +44,25 @@ module ReVIEW
       a = split_line(unescape(detab(line)), n)
       (idx + first_line_num).to_s.rjust(2) + ': ' + escape(a.join("\x01\n    ")).gsub("\x01", CR) + "\n"
     end
+
+    # 長いURLを自動的に改行する
+    def _inline_hyperlink(url, escaped_label, flag_footnote)
+      if /\A[a-z]+:/ !~ url
+        "\\ref{#{url}}"
+      elsif ! escaped_label.present?
+        #"\\url{#{escape_url(url)}}"
+        "\\myurl{#{escape_url(url)}}{#{escape(url)}}"
+      elsif ! flag_footnote
+        "\\href{#{escape_url(url)}}{#{escaped_label}}"
+      elsif within_context?(:footnote)
+        #"#{escaped_label}(\\url{#{escape_url(url)}})"
+        "#{escaped_label}(\\myurl{#{escape_url(url)}}{#{escape(url)}})"
+      else
+        #"#{escaped_label}\\footnote{\\url{#{escape_url(url)}}}"
+        "#{escaped_label}\\footnote{\\myurl{#{escape_url(url)}}{#{escape(url)}}}"
+      end
+    end
+    private :_inline_hyperlink
   end
 
   class LATEXBuilder
