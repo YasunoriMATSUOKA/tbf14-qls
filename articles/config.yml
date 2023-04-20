@@ -17,12 +17,12 @@ review_version: 5.0
 # inherit: ["A.yml", "B.yml"]
 
 # ブック名(ファイル名になるもの。ASCII範囲の文字を使用)
-bookname: Quick-Learning-Symbol
+bookname: Quick-Learning-Symbol-JS
 # 記述言語。省略した場合はja
 language: ja
 
 # 書名
-booktitle: {name: "今日から現場で使える速習Symbolブロックチェーン", file-as: "キョウカラゲンバデツカエルソクシュウsymbolブロックチェーン"}
+booktitle: {name: "今日から現場で使える速習SymbolブロックチェーンJavaScript版", file-as: "キョウカラゲンバデツカエルソクシュウSymbolブロックチェーンJavaScriptバン"}
 
 # 著者名。「, 」で区切って複数指定できる
 aut: [{name: "XEMBook", file-as: "xembook"}]
