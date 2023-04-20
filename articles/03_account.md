@@ -100,10 +100,12 @@ Symbolブロックチェーンでは、この手数料をXYMという共通ト�
 メインネットの場合は取引所などでXYMを購入するか、投げ銭サービス(NEMLOG,QUEST)などを利用して寄付を募りましょう。  
 
 テストネット
+
 - FAUCET(蛇口)
   - https://testnet.symbol.tools/
 
 メインネット
+
 - NEMLOG
   - https://nemlog.nem.social/
 - QUEST
