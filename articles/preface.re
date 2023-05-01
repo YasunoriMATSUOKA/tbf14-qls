@@ -26,7 +26,7 @@ Symbolブロックチェーンは、現在、世の中で主流となってい�
 
 本書は、Symbolブロックチェーンのシンプルなブロックエクスプローラーとして、Symbol決済や税務処理や保有しているNFTの閲覧等の様々な場面で便利なXEMBook(https://xembook.github.io/xembook/)というサービスの開発者であるXEMBook氏(https://twitter.com/xembook)によって作成された、Symbolブロックチェーンの学習用コンテンツ「速習Symbol」(https://github.com/xembook/quick_learning_symbol)を、XEMBook氏の許可を頂いた上で、NPO法人 NEM技術普及推進会 NEMTUS(https://nemtus.com/)の松岡靖典(https://twitter.com/salaryman_tousi)が編集させて頂いたものです。
 
-== 謝意
+== 謝辞
 
 本書の発行に際し、XEMBook氏に対して大きな感謝の意を表するとともに、本書を通じて多くの方がSymbolブロックチェーンの技術に触れ、その結果として「新しい時代の、公共性が高く、持続可能な、社会をより良くしていけるようなサービスが、一部の人々や組織の超人的な頑張りに頼らずに無理なく実現された未来」が実現されることを切に願っています。
 
