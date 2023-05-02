@@ -40,8 +40,7 @@ MosaicFlags {
 
 #### divisibility:可分性
 
-可分性は小数点第何位まで数量の単位とするかを決めます。データは整数値として保持されます。
-
+可分性は小数点第何位まで数量の単位とするかを決めます。データは整数値として保持されます。  
 divisibility:0 = 1  
 divisibility:1 = 1.0  
 divisibility:2 = 1.00  
@@ -162,6 +161,7 @@ await txRepo.announce(signedTx).toPromise();
 
 複数のモザイクを一度に送信できます。
 XYMを送信するには以下のモザイクIDを指定します。
+
 - メインネット：6BED913FA20223F8
 - テストネット：72C0212E67A08BCE
 
