@@ -46,8 +46,9 @@ aut: [{name: "XEMBook", file-as: "xembook"}]
 # a-cmm, cmm: 解釈・分析・考察者
 # a-csl, csl: 監修者
 # a-dsr, dsr: デザイナ
+dsr: ["MTN"]
 # a-edt, edt: 編集者
-edt: ["松岡靖典"]
+edt: ["松岡靖典", "mikun"]
 # a-ill, ill: イラストレータ
 # a-lyr, lyr: 歌詞作成者
 # a-mdc, mdc: メタデータセットの一次的責任者
@@ -58,6 +59,7 @@ edt: ["松岡靖典"]
 # a-pbl, pbl: 出版社（発行所）
 pbl: NPO法人 NEM技術普及推進会 NEMTUS
 # a-prt, prt: 印刷所
+prt: ねこのしっぽ
 # prt: TechBooster
 # a-red, red: 項目の枠組起草者
 # a-rev, rev: 評論者
@@ -67,6 +69,7 @@ pbl: NPO法人 NEM技術普及推進会 NEMTUS
 # a-trl, trl: 翻訳者
 
 # contact: 連絡先
+contact: support@nemtus.com
 
 # 刊行日(省略した場合は実行時の日付)
 date: 2023-05-20

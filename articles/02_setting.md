@@ -90,4 +90,4 @@ function clog(signedTx){
 
 本ドキュメントの内容が少し分かりにくい場合はQiita等の記事もご参考ください。
 
-[Symbolブロックチェーンのテストネットで送金を体験する](https://qiita.com/nem_takanobu/items/e2b1f0aafe7a2df0fe1b)
+[https://qiita.com/nem_takanobu/items/e2b1f0aafe7a2df0fe1b](https://qiita.com/nem_takanobu/items/e2b1f0aafe7a2df0fe1b)

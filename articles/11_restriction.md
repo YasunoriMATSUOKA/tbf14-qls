@@ -35,6 +35,7 @@ AddressRestrictionFlagについては以下の通りです。
 ```
 
 AddressRestrictionFlagにはBlockIncomingAddressのほか、上記のようなフラグが使用できます。
+
 - AllowIncomingAddress：指定アドレスからのみ受信許可
 - AllowOutgoingAddress：指定アドレス宛のみ送信許可
 - BlockIncomingAddress：指定アドレスからの受信受拒否
@@ -126,7 +127,7 @@ console.log(res);
           0: Address {address: 'TCW2ZW7LVJMS4LWUQ7W6NROASRE2G2QKSBVCIQY', networkType: 152}
 ```
 
-## 11.2 グローバルモザイク制限
+## グローバルモザイク制限
 
 グローバルモザイク制限はモザイクに対して送信可能な条件を設定します。  
 その後、各アカウントに対してグローバルモザイク制限専用の数値メタデータを付与します。  
