@@ -14,3 +14,16 @@ bookname: Quick-Learning-Symbol-JS-Ebook
 texdocumentclass: ["review-jsbook", "media=ebook,paper=b5,serial_pagination=true,openany,fontsize=10pt,baselineskip=15.4pt,line_length=40zw,number_of_lines=35,head_space=30mm,headsep=10mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 電子版
 # texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
+
+pdfmaker:
+  # 表紙に配置し、書籍の影絵にも利用する画像ファイル。省略した場合はnull (画像を使わない)。画像ディレクトリ内に置いてもディレクトリ名は不要(例: cover.jpg)
+  # PDFMaker 固有の表紙設定は pdfmaker セクション内で上書き可能
+  coverimage: cover.png
+
+# TechBooster Re:VIEW-Template独自設定
+techbooster:
+  # 表紙および裏表紙を実寸ではなく仕上がりサイズにリサイズするか
+  # texdocumentclassでcover_fit_page=trueを付けるのと同じ
+  # cover_fit_page: true
+  # 裏表紙画像指定。画像はimages/から探索される
+  backcoverimage: backcover.png
